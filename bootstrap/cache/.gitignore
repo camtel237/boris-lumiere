@@ -1,0 +1,3 @@
+# Keep Laravel's writable cache directory in the repository.
+*
+!.gitignore

@@ -10,7 +10,8 @@
 /storage/framework/sessions/
 /storage/framework/cache/
 /storage/framework/testing/
-/bootstrap/cache/
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
 /storage/app/public/
 Homestead.json
 Homestead.yaml
