@@ -15,7 +15,7 @@
 <body class="font-body bg-navy min-h-screen flex flex-col items-center justify-center px-4 py-10">
 
     <a href="{{ route('home') }}" class="flex items-center gap-2 text-white font-display font-bold text-xl mb-8">
-        <span class="w-10 h-10 bg-yellow text-navy rounded-lg grid place-items-center">⚡</span>
+        <img src="{{ asset('images/logo_boris.png') }}" alt="" class="h-10 w-10 rounded-lg object-contain bg-white">
         Boris Lumière
     </a>
 

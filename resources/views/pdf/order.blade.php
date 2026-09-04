@@ -19,7 +19,7 @@
 <body>
     <div class="header">
         <div>
-            <div class="brand">⚡ Boris Lumière</div>
+            <div class="brand">Boris Lumière</div>
             <div class="slogan">La qualité supérieure au meilleur prix</div>
         </div>
         <div class="meta">

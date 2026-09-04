@@ -20,7 +20,7 @@
     <header class="fixed top-1 inset-x-0 z-50 bg-navy text-white shadow-lg">
         <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
             <a href="{{ route('home') }}" class="flex items-center gap-2 font-display font-bold text-lg shrink-0">
-                <span class="w-9 h-9 rounded-lg bg-yellow text-navy grid place-items-center text-lg">⚡</span>
+                <img src="{{ asset('images/logo_boris.png') }}" alt="Boris Lumière" class="h-10 w-10 rounded-lg object-contain bg-white">
                 <span class="hidden sm:inline">Boris Lumière</span>
             </a>
 
@@ -85,7 +85,7 @@
         <div class="max-w-6xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-3 text-sm">
             <div>
                 <div class="flex items-center gap-2 font-display font-bold text-white text-base mb-2">
-                    <span class="w-8 h-8 rounded-lg bg-yellow text-navy grid place-items-center">⚡</span>
+                    <img src="{{ asset('images/logo_boris.png') }}" alt="" class="h-8 w-8 rounded-lg object-contain bg-white">
                     Boris Lumière
                 </div>
                 <p>La qualité supérieure au meilleur prix.</p>

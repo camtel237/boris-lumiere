@@ -20,7 +20,7 @@
         <aside class="bg-navy text-white p-4 sm:p-5 md:min-h-screen">
             <div class="flex items-center justify-between md:block">
                 <a href="{{ route('admin.dashboard') }}" class="flex items-center gap-2 font-display font-bold">
-                    <span class="w-8 h-8 rounded-lg bg-yellow text-navy grid place-items-center">⚡</span>
+                    <img src="{{ asset('images/logo_boris.png') }}" alt="" class="h-8 w-8 rounded-lg object-contain bg-white">
                     Boris Lumière
                 </a>
                 <button class="md:hidden p-2" @click="mobileNavOpen = !mobileNavOpen" aria-label="Menu">☰</button>
